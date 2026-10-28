@@ -2,6 +2,7 @@
 
 | ID | Missing evidence | Independent action / resolution |
 | --- | --- | --- |
+| SUPERADMIN-REPO | Exact separate Superadmin repository name not supplied | Ask only for that repository URL/name; do not create or repurpose a candidate automatically |
 | STARTER-TARGETS | User is setting up starters; final code paths and project bindings are not yet verified | Inspect live repository trees and platform bindings when present; do not ask user for details already in those sources |
 | DB-READINESS | Previously selected databases reported INACTIVE; current schemas/data/RLS unknown | Read-only account/project/schema inspection with actual authorized tools; record precise access/state blocker if unavailable |
 | AUTH-BOOTSTRAP | Exact initial actual Superadmin identity authorization and staff invitation/recovery implementation unverified | Design baseline-backed workflow; do not seed account or grant role by email string alone |

@@ -1,13 +1,14 @@
 # Loxada Entertainments Company
 
-Construction knowledge hub for all four systems, and the home of the Superadmin implementation.
+Construction knowledge hub for all four systems. All four applications, including Superadmin, live in separate implementation repositories.
 
 Start with [START_HERE.md](START_HERE.md). Agents read [AGENTS.md](AGENTS.md).
 
 | Location | Responsibility |
 | --- | --- |
 | despairarc000/loxadaentertainments | Existing research, information and business knowledge; upstream reference |
-| This repository | Construction ICM, Graphify, Vault, shared interface contracts, integration evidence, Superadmin application |
+| This repository | Construction ICM, Graphify, Vault, shared interface contracts and integration evidence only |
+| hilocarloarmenion03 (separate repo, name pending) | Superadmin application and its own deployment/database |
 | lozadatech01 | Manga & Light Novel application and its own deployment/database |
 | hebratech01 | Anime application and its own deployment/database |
 | padregandatech01 | Merchandise application and its own deployment/database |
@@ -28,4 +29,4 @@ python3 -m unittest discover -s tests -v
 
 Python3.11+ standard library only; navigation works offline. No hosted knowledge service, npm package, paid API, chat memory or copied local database is needed. The full pinned v1.0 baseline is included for offline reference; use focused retrieval rather than loading it all.
 
-The user is setting up the Vercel/Supabase starters. Superadmin source is reserved under apps/superadmin; this bootstrap does not create an application or claim production readiness. Existing department repository names and resources are recorded as observations, not permission to overwrite them. All scheduled tasks remain paused.
+The user is setting up the Vercel/Supabase starters. The Superadmin application has a separate repository whose exact name is not yet confirmed. This knowledge repository contains no application starter or reserved application directory. Existing department repository names and resources are recorded as observations, not permission to overwrite them. All scheduled tasks remain paused.

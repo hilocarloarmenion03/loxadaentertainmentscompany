@@ -1,7 +1,7 @@
 # Confirmed decisions — 2026-10-28
 
 - despairarc000/loxadaentertainments holds existing research, information and business knowledge.
-- hilocarloarmenion03/loxadaentertainmentscompany holds construction knowledge for all four systems: ICM, Graphify and Vault. Superadmin is built here too.
+- hilocarloarmenion03/loxadaentertainmentscompany holds construction knowledge for all four systems: ICM, Graphify and Vault. LATEST CORRECTION: Superadmin is built in a separate application repository too; the exact repository name is not yet confirmed. This supersedes the earlier co-location instruction. This company repository is knowledge-only.
 - Manga/LN is built under lozadatech01; Anime under hebratech01; Merchandise under padregandatech01. Each uses its specified Vercel/Supabase account.
 - The user will set up the Supabase-integrated Vercel starter. This task sets up construction knowledge/navigation; it does not authorize pretending the starter exists.
 - All scheduled tasks were paused on user request; retain that state. Do not restart or create replacement schedules.

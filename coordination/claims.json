@@ -6,7 +6,7 @@
       "owner": "integrator",
       "task": "REPO-BOUNDARY-CORRECTION",
       "base_sha": "adfd833fb60515ccf78a684778e75c6df91429cf",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "scope": [
         "AGENTS.md",
         "README.md",
@@ -21,7 +21,8 @@
         "navigation"
       ],
       "started_at": "2026-10-28T20:23:17.119Z",
-      "expires_at": "2026-10-28T20:53:17.119Z"
+      "expires_at": "2026-10-28T20:53:17.119Z",
+      "result": "Latest user correction recorded; application placeholder removed; knowledge-only boundaries verified."
     }
   ]
 }

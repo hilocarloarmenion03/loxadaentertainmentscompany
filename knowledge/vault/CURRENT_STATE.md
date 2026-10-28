@@ -2,7 +2,7 @@
 
 VERIFIED scope of this bootstrap: repository knowledge/navigation tooling, pinned accepted business baseline, account/repository map, deterministic graph, task/claim protocol and local validation. No application, production schema, ETL pipeline, deployment or real account authorization is implemented by this bootstrap.
 
-OBSERVED: company repository was empty on initial live GitHub inspection. It is the new Superadmin destination. The older hilocarloarmenion03/superadmin repository is a legacy candidate, not the construction destination. Department repositories existed at the last inspection; see ACCOUNTS.
+OBSERVED: company repository was empty on initial live GitHub inspection. LATEST USER CORRECTION: this is knowledge-only. Superadmin belongs in a separate application repository; its exact name is pending confirmation. The observed hilocarloarmenion03/superadmin is a candidate, not an assumed target. Department repositories existed at the last inspection; see ACCOUNTS.
 
 OBSERVED at prior2026-10-28 connected-account check: all four selected Supabase projects reported INACTIVE. This is not a current database inspection; future agents must recheck before schema work. Vercel project existence was confirmed, not latest deployment health, repo binding, secret correctness or RLS coverage.
 

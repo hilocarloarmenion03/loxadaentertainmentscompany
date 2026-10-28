@@ -22,6 +22,6 @@ Latest explicit user instruction > recorded confirmed decisions > accepted pinne
 - [Runbook](runbooks/AGENT_WORKFLOW.md): inspect, claim, execute, validate, hand off.
 - [Bootstrap runbook](runbooks/STARTER_HANDOFF.md): inspect the starter the user creates without assuming deployment readiness.
 - [Task board](coordination/tasks.json), [claims](coordination/claims.json), [integration ledger](coordination/integrations.json).
-- [Superadmin home](apps/superadmin/README.md) and [shared contract index](contracts/README.md).
+- [System repository boundaries](knowledge/vault/SYSTEM_REPOSITORIES.md) and [shared contract index](contracts/README.md).
 
 This repository is the construction system of record. Keep large original research upstream; import a pinned necessary reference with provenance when agents would otherwise need hidden context. Never copy an upstream schedule, stale lock or prototype task board as active authority here.

@@ -4,7 +4,7 @@ CONFIRMED owner identities; no credentials belong here.
 
 | System | Account email | GitHub owner | Construction target |
 | --- | --- | --- | --- |
-| Owner | hilocarloarmenion03@gmail.com | hilocarloarmenion03 | hilocarloarmenion03/loxadaentertainmentscompany, apps/superadmin |
+| Owner | hilocarloarmenion03@gmail.com | hilocarloarmenion03 | Separate Superadmin application repo under hilocarloarmenion03; exact name pending |
 | Manga/LN | lozadatech01@gmail.com | lozadatech01 | Existing mangalighnovelsubsystem candidate; verify user starter target |
 | Anime | hebratech01@gmail.com | hebratech01 | Existing animesubsystem candidate; verify user starter target |
 | Merch | padregandatech01@gmail.com | padregandatech01 | Existing merchandise candidate; verify user starter target |

@@ -2,7 +2,7 @@
 
 Reviewed2026-10-28. Primary sources:
 
-- [OpenAI agent instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md): predictable AGENTS.md entrypoints and directory-specific instruction discovery. Applied: concise root map and a scoped Superadmin entrypoint; no giant injected baseline.
+- [OpenAI agent instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md): predictable AGENTS.md entrypoints and directory-specific instruction discovery. Applied: concise root map and explicit cross-repository application boundaries; no giant injected baseline.
 - [OpenAI harness engineering](https://openai.com/index/harness-engineering/): repository-local system of record, progressive context discovery and mechanically checked boundaries. Applied: local docs, explicit task/status/evidence, generated navigation graph and CI checks. Its reported productivity is that team's observation, not a LOXADA performance claim.
 - [AGENTS.md open convention](https://agents.md/): portable repository instructions complement human README. Applied: no vendor-specific hosted memory dependency.
 

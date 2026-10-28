@@ -40,13 +40,13 @@
         "USER-STARTERS"
       ],
       "scope": [
-        "apps/superadmin/",
-        "knowledge/vault/ACCOUNTS.md"
+        "knowledge/vault/ACCOUNTS.md",
+        "knowledge/vault/SYSTEM_REPOSITORIES.md"
       ],
       "halo": [
         "actual framework manifests, Git/Vercel/Supabase bindings"
       ],
-      "blocker": "Requires actual starter evidence. No application source is installed by knowledge bootstrap."
+      "blocker": "Actual starter evidence and exact separate Superadmin repository identity are pending."
     },
     {
       "id": "SCHEMA-CONTRACTS",
@@ -79,18 +79,17 @@
         "SCHEMA-CONTRACTS",
         "STARTER-VERIFY"
       ],
-      "scope": [
-        "apps/superadmin/"
-      ],
+      "scope": [],
       "halo": [
         "authenticated actual Owner identity, original departmental counterpart and database transaction"
       ],
-      "blocker": "Reviewed contracts and verified starter/runtime are predecessors."
+      "blocker": "Exact separate application repository, reviewed contracts and verified starter/runtime required. No Superadmin source in company knowledge repo.",
+      "target_repository": "UNCONFIRMED_SEPARATE_SUPERADMIN_REPO"
     },
     {
       "id": "REPO-BOUNDARY-CORRECTION",
       "title": "Record separate Superadmin application repository",
-      "state": "CLAIMED",
+      "state": "INTEGRATED",
       "owner": "integrator",
       "deps": [],
       "scope": [
@@ -109,6 +108,9 @@
       "acceptance": [
         "Knowledge repository contains no application placeholder",
         "Separate Superadmin target remains unconfirmed until provided"
+      ],
+      "evidence": [
+        "knowledge/vault/BOUNDARY_CORRECTION_VERIFICATION.md"
       ]
     }
   ]

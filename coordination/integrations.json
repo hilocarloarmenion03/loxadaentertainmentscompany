@@ -7,6 +7,13 @@
       "source": "Git commit containing this bootstrap; inspect file history for exact SHA",
       "evidence": "knowledge/vault/BOOTSTRAP_VERIFICATION.md",
       "application_ready": false
+    },
+    {
+      "task": "REPO-BOUNDARY-CORRECTION",
+      "state": "INTEGRATED_KNOWLEDGE_ONLY",
+      "source": "Git commit containing this correction; inspect file history",
+      "evidence": "knowledge/vault/BOUNDARY_CORRECTION_VERIFICATION.md",
+      "application_ready": false
     }
   ]
 }

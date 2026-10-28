@@ -2,7 +2,7 @@
 
 The company repository's coordination/tasks.json is the construction board. claims.json stores active/released/submitted claims; integrations.json stores exact evidence. No copied prototype task board/SQLite lock is authoritative. All schedules are paused.
 
-A single designated integrator coordinates a work unit; other agents own an isolated task packet/branch within an explicit scope plus dependency halo. Knowledge/graph regeneration, contracts used by multiple systems, Superadmin shared source/schema and integration records need one reserved writer. Independent department work belongs in its account/repo; reserve the relevant counterpart contract here before cross-system changes.
+A single designated integrator coordinates a work unit; other agents own an isolated task packet/branch within an explicit scope plus dependency halo. Knowledge/graph regeneration, contracts used by multiple systems, Superadmin counterpart contracts and integration records need one reserved writer; actual Superadmin source/schema is owned in its separate application repository. Independent department work belongs in its account/repo; reserve the relevant counterpart contract here before cross-system changes.
 
 ## Claim transaction
 

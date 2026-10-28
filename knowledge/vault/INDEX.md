@@ -1,5 +1,6 @@
 # Vault index
 
+- [SYSTEM_REPOSITORIES](SYSTEM_REPOSITORIES.md): knowledge-only company hub and four separate application repositories.
 - [DECISIONS](DECISIONS.md): confirmed repository/account boundaries and operating constraints.
 - [CURRENT_STATE](CURRENT_STATE.md): observed status, implemented scope and missing evidence.
 - [BUSINESS_MAP](BUSINESS_MAP.md): three business models and Owner service.

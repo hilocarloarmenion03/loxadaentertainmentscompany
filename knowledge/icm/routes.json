@@ -70,7 +70,8 @@
       "files": [
         "knowledge/vault/ACCOUNTS.md",
         "runbooks/STARTER_HANDOFF.md",
-        "knowledge/vault/CURRENT_STATE.md"
+        "knowledge/vault/CURRENT_STATE.md",
+        "knowledge/vault/SYSTEM_REPOSITORIES.md"
       ],
       "related": [
         "owner",
@@ -173,8 +174,7 @@
         "approval"
       ],
       "files": [
-        "apps/superadmin/README.md",
-        "apps/superadmin/AGENTS.md",
+        "knowledge/vault/SYSTEM_REPOSITORIES.md",
         "contracts/README.md",
         "knowledge/vault/DECISIONS.md"
       ],
