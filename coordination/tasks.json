@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "schedules": "PAUSED_BY_USER",
+  "tasks": [
+    {
+      "id": "KNOWLEDGE-BOOTSTRAP",
+      "title": "Create verified construction navigation and pinned baseline",
+      "state": "INTEGRATED",
+      "owner": "integrator",
+      "deps": [],
+      "scope": [
+        "knowledge/",
+        "tools/",
+        "tests/",
+        "AGENTS.md"
+      ],
+      "halo": [
+        "navigation and source provenance"
+      ],
+      "evidence": [
+        "knowledge/vault/BOOTSTRAP_VERIFICATION.md"
+      ]
+    },
+    {
+      "id": "USER-STARTERS",
+      "title": "User prepares actual four-system starter targets",
+      "state": "BLOCKED",
+      "owner": "external-user",
+      "deps": [],
+      "scope": [],
+      "halo": [],
+      "blocker": "User is setting up starters; live target source/bindings not verified. Do not invent completion."
+    },
+    {
+      "id": "STARTER-VERIFY",
+      "title": "Inspect and record exact starter source and platform bindings",
+      "state": "BLOCKED",
+      "owner": "unassigned",
+      "deps": [
+        "USER-STARTERS"
+      ],
+      "scope": [
+        "apps/superadmin/",
+        "knowledge/vault/ACCOUNTS.md"
+      ],
+      "halo": [
+        "actual framework manifests, Git/Vercel/Supabase bindings"
+      ],
+      "blocker": "Requires actual starter evidence. No application source is installed by knowledge bootstrap."
+    },
+    {
+      "id": "SCHEMA-CONTRACTS",
+      "title": "Derive v1.0 schema, permission and approved export contracts",
+      "state": "READY",
+      "owner": "unassigned",
+      "deps": [
+        "KNOWLEDGE-BOOTSTRAP"
+      ],
+      "scope": [
+        "contracts/"
+      ],
+      "halo": [
+        "original process scope, role boundaries, fact grain, source-to-target mapping"
+      ],
+      "acceptance": [
+        "Exact v1.0 requirement sources and latest user decisions linked",
+        "Separate per-system normalized OLTP and dimensional analytics contracts",
+        "Original source/native identity and idempotency, Auth/RLS and privacy boundaries explicit",
+        "Unknown business decisions and actual infrastructure gaps remain explicit",
+        "Contract review evidence recorded; no live migration or data fabricated"
+      ]
+    },
+    {
+      "id": "SUPERADMIN-FIRST-FLOW",
+      "title": "Implement first real source-backed Owner workflow",
+      "state": "BLOCKED",
+      "owner": "unassigned",
+      "deps": [
+        "SCHEMA-CONTRACTS",
+        "STARTER-VERIFY"
+      ],
+      "scope": [
+        "apps/superadmin/"
+      ],
+      "halo": [
+        "authenticated actual Owner identity, original departmental counterpart and database transaction"
+      ],
+      "blocker": "Reviewed contracts and verified starter/runtime are predecessors."
+    }
+  ]
+}

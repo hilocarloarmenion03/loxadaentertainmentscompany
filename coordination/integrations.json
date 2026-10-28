@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "task": "KNOWLEDGE-BOOTSTRAP",
+      "state": "INTEGRATED_KNOWLEDGE_ONLY",
+      "source": "Git commit containing this bootstrap; inspect file history for exact SHA",
+      "evidence": "knowledge/vault/BOOTSTRAP_VERIFICATION.md",
+      "application_ready": false
+    }
+  ]
+}

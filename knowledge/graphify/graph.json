@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "KNOWLEDGE-BOOTSTRAP",
+      "kind": "task",
+      "title": "Create verified construction navigation and pinned baseline",
+      "status": "INTEGRATED"
+    },
+    {
+      "id": "SCHEMA-CONTRACTS",
+      "kind": "task",
+      "title": "Derive v1.0 schema, permission and approved export contracts",
+      "status": "READY"
+    },
+    {
+      "id": "STARTER-VERIFY",
+      "kind": "task",
+      "title": "Inspect and record exact starter source and platform bindings",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "SUPERADMIN-FIRST-FLOW",
+      "kind": "task",
+      "title": "Implement first real source-backed Owner workflow",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "USER-STARTERS",
+      "kind": "task",
+      "title": "User prepares actual four-system starter targets",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "accounts",
+      "kind": "context",
+      "title": "Correct account repository and starter setup",
+      "files": [
+        "knowledge/vault/ACCOUNTS.md",
+        "runbooks/STARTER_HANDOFF.md",
+        "knowledge/vault/CURRENT_STATE.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "anime",
+      "kind": "context",
+      "title": "Anime construction",
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "knowledge/vault/ACCOUNTS.md",
+        "contracts/README.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "baseline",
+      "kind": "context",
+      "title": "Accepted business specification",
+      "files": [
+        "knowledge/specification/PROVENANCE.md",
+        "knowledge/specification/manifest.json",
+        "knowledge/vault/BUSINESS_MAP.md"
+      ],
+      "status": "BASELINE"
+    },
+    {
+      "id": "coordination",
+      "kind": "context",
+      "title": "Ownership concurrency and safe delivery",
+      "files": [
+        "coordination/PROTOCOL.md",
+        "coordination/tasks.json",
+        "coordination/claims.json",
+        "coordination/integrations.json"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "data",
+      "kind": "context",
+      "title": "Data architecture and academic evidence",
+      "files": [
+        "knowledge/vault/DATA_ARCHITECTURE.md",
+        "knowledge/vault/ACADEMIC_REQUIREMENTS.md",
+        "contracts/README.md"
+      ],
+      "status": "PROPOSED"
+    },
+    {
+      "id": "manga",
+      "kind": "context",
+      "title": "Manga and Light Novel construction",
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "knowledge/vault/ACCOUNTS.md",
+        "contracts/README.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "merch",
+      "kind": "context",
+      "title": "Merchandise construction",
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "contracts/README.md",
+        "knowledge/vault/ACCOUNTS.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "owner",
+      "kind": "context",
+      "title": "Superadmin and company governance",
+      "files": [
+        "apps/superadmin/README.md",
+        "apps/superadmin/AGENTS.md",
+        "contracts/README.md",
+        "knowledge/vault/DECISIONS.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "research",
+      "kind": "context",
+      "title": "Agent workflow research and construction approach",
+      "files": [
+        "knowledge/vault/RESEARCH_AGENT_WORKFLOW.md",
+        "knowledge/vault/CONSTRUCTION_PLAN.md"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "start",
+      "kind": "context",
+      "title": "Cold start and navigation",
+      "files": [
+        "START_HERE.md",
+        "knowledge/vault/HANDOFF.md",
+        "runbooks/AGENT_WORKFLOW.md"
+      ],
+      "status": "CONFIRMED"
+    }
+  ],
+  "edges": [
+    {
+      "from": "SCHEMA-CONTRACTS",
+      "to": "KNOWLEDGE-BOOTSTRAP",
+      "type": "requires"
+    },
+    {
+      "from": "STARTER-VERIFY",
+      "to": "USER-STARTERS",
+      "type": "requires"
+    },
+    {
+      "from": "SUPERADMIN-FIRST-FLOW",
+      "to": "SCHEMA-CONTRACTS",
+      "type": "requires"
+    },
+    {
+      "from": "SUPERADMIN-FIRST-FLOW",
+      "to": "STARTER-VERIFY",
+      "type": "requires"
+    },
+    {
+      "from": "accounts",
+      "to": "coordination",
+      "type": "related"
+    },
+    {
+      "from": "accounts",
+      "to": "owner",
+      "type": "related"
+    },
+    {
+      "from": "anime",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "anime",
+      "to": "data",
+      "type": "related"
+    },
+    {
+      "from": "baseline",
+      "to": "anime",
+      "type": "related"
+    },
+    {
+      "from": "baseline",
+      "to": "manga",
+      "type": "related"
+    },
+    {
+      "from": "baseline",
+      "to": "merch",
+      "type": "related"
+    },
+    {
+      "from": "baseline",
+      "to": "owner",
+      "type": "related"
+    },
+    {
+      "from": "coordination",
+      "to": "accounts",
+      "type": "related"
+    },
+    {
+      "from": "coordination",
+      "to": "start",
+      "type": "related"
+    },
+    {
+      "from": "data",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "data",
+      "to": "owner",
+      "type": "related"
+    },
+    {
+      "from": "manga",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "manga",
+      "to": "data",
+      "type": "related"
+    },
+    {
+      "from": "merch",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "merch",
+      "to": "data",
+      "type": "related"
+    },
+    {
+      "from": "owner",
+      "to": "accounts",
+      "type": "related"
+    },
+    {
+      "from": "owner",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "owner",
+      "to": "data",
+      "type": "related"
+    },
+    {
+      "from": "research",
+      "to": "coordination",
+      "type": "related"
+    },
+    {
+      "from": "research",
+      "to": "start",
+      "type": "related"
+    },
+    {
+      "from": "start",
+      "to": "accounts",
+      "type": "related"
+    },
+    {
+      "from": "start",
+      "to": "baseline",
+      "type": "related"
+    },
+    {
+      "from": "start",
+      "to": "coordination",
+      "type": "related"
+    }
+  ]
+}

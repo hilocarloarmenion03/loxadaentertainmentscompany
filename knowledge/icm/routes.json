@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "routes": [
+    {
+      "id": "start",
+      "title": "Cold start and navigation",
+      "keywords": [
+        "start",
+        "onboarding",
+        "agent",
+        "navigation",
+        "icm",
+        "graphify",
+        "vault",
+        "handoff"
+      ],
+      "files": [
+        "START_HERE.md",
+        "knowledge/vault/HANDOFF.md",
+        "runbooks/AGENT_WORKFLOW.md"
+      ],
+      "related": [
+        "accounts",
+        "coordination",
+        "baseline"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "baseline",
+      "title": "Accepted business specification",
+      "keywords": [
+        "spec",
+        "specification",
+        "baseline",
+        "v1.0",
+        "requirements",
+        "rules",
+        "process"
+      ],
+      "files": [
+        "knowledge/specification/PROVENANCE.md",
+        "knowledge/specification/manifest.json",
+        "knowledge/vault/BUSINESS_MAP.md"
+      ],
+      "related": [
+        "manga",
+        "anime",
+        "merch",
+        "owner"
+      ],
+      "status": "BASELINE"
+    },
+    {
+      "id": "accounts",
+      "title": "Correct account repository and starter setup",
+      "keywords": [
+        "account",
+        "github",
+        "repository",
+        "repo",
+        "vercel",
+        "supabase",
+        "starter",
+        "setup",
+        "deploy",
+        "auth",
+        "credentials"
+      ],
+      "files": [
+        "knowledge/vault/ACCOUNTS.md",
+        "runbooks/STARTER_HANDOFF.md",
+        "knowledge/vault/CURRENT_STATE.md"
+      ],
+      "related": [
+        "owner",
+        "coordination"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "manga",
+      "title": "Manga and Light Novel construction",
+      "keywords": [
+        "manga",
+        "light",
+        "novel",
+        "publisher",
+        "creator",
+        "edition",
+        "reader",
+        "advertisement",
+        "advertising",
+        "settlement"
+      ],
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "knowledge/vault/ACCOUNTS.md",
+        "contracts/README.md"
+      ],
+      "related": [
+        "baseline",
+        "data"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "anime",
+      "title": "Anime construction",
+      "keywords": [
+        "anime",
+        "license",
+        "licensor",
+        "commission",
+        "producer",
+        "streaming",
+        "subscriber",
+        "subscription",
+        "qc"
+      ],
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "knowledge/vault/ACCOUNTS.md",
+        "contracts/README.md"
+      ],
+      "related": [
+        "baseline",
+        "data"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "merch",
+      "title": "Merchandise construction",
+      "keywords": [
+        "merch",
+        "merchandise",
+        "wholesale",
+        "manufacture",
+        "manufacturer",
+        "inventory",
+        "lot",
+        "receipt",
+        "invoice",
+        "supplier",
+        "ownership",
+        "warehouse",
+        "stock",
+        "return"
+      ],
+      "files": [
+        "knowledge/vault/BUSINESS_MAP.md",
+        "contracts/README.md",
+        "knowledge/vault/ACCOUNTS.md"
+      ],
+      "related": [
+        "baseline",
+        "data"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "owner",
+      "title": "Superadmin and company governance",
+      "keywords": [
+        "owner",
+        "superadmin",
+        "central",
+        "governance",
+        "decision",
+        "permission",
+        "strategy",
+        "approval"
+      ],
+      "files": [
+        "apps/superadmin/README.md",
+        "apps/superadmin/AGENTS.md",
+        "contracts/README.md",
+        "knowledge/vault/DECISIONS.md"
+      ],
+      "related": [
+        "baseline",
+        "accounts",
+        "data"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "data",
+      "title": "Data architecture and academic evidence",
+      "keywords": [
+        "database",
+        "schema",
+        "postgres",
+        "oltp",
+        "olap",
+        "lake",
+        "warehouse",
+        "mart",
+        "etl",
+        "elt",
+        "dimensional",
+        "fact",
+        "dimension",
+        "star",
+        "snowflake",
+        "galaxy",
+        "scd",
+        "kpi",
+        "analytics",
+        "privacy",
+        "rls"
+      ],
+      "files": [
+        "knowledge/vault/DATA_ARCHITECTURE.md",
+        "knowledge/vault/ACADEMIC_REQUIREMENTS.md",
+        "contracts/README.md"
+      ],
+      "related": [
+        "baseline",
+        "owner"
+      ],
+      "status": "PROPOSED"
+    },
+    {
+      "id": "coordination",
+      "title": "Ownership concurrency and safe delivery",
+      "keywords": [
+        "task",
+        "claim",
+        "lock",
+        "worker",
+        "coordinator",
+        "integration",
+        "parallel",
+        "dependency",
+        "scope",
+        "cas",
+        "branch",
+        "schedule",
+        "paused"
+      ],
+      "files": [
+        "coordination/PROTOCOL.md",
+        "coordination/tasks.json",
+        "coordination/claims.json",
+        "coordination/integrations.json"
+      ],
+      "related": [
+        "start",
+        "accounts"
+      ],
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "research",
+      "title": "Agent workflow research and construction approach",
+      "keywords": [
+        "research",
+        "effective",
+        "efficient",
+        "autonomy",
+        "autonomous",
+        "context",
+        "workflow",
+        "harness"
+      ],
+      "files": [
+        "knowledge/vault/RESEARCH_AGENT_WORKFLOW.md",
+        "knowledge/vault/CONSTRUCTION_PLAN.md"
+      ],
+      "related": [
+        "start",
+        "coordination"
+      ],
+      "status": "CONFIRMED"
+    }
+  ]
+}

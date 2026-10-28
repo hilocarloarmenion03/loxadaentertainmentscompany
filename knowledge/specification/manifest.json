@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "path": "knowledge/specification/v1.0.md",
+  "upstream_repository": "despairarc000/loxadaentertainments",
+  "upstream_ref": "5f50a1851d4c336624c4c449b7cadb04df5f29cb",
+  "upstream_path": "apps/fast-prototypes/specification/v1.0.md",
+  "git_blob_sha": "ad7ab944417f601804851283bfbd0ef2a10b6de1",
+  "sha256": "bf3151dbc2c8c5d8395372422a525981405188818147e6d53772314f43df14c0",
+  "bytes": 2258314,
+  "verified_at": "2026-10-28",
+  "authority": "Accepted v1.0 business baseline; latest explicit user decisions override historical snapshot statements"
+}
