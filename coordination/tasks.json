@@ -86,6 +86,30 @@
         "authenticated actual Owner identity, original departmental counterpart and database transaction"
       ],
       "blocker": "Reviewed contracts and verified starter/runtime are predecessors."
+    },
+    {
+      "id": "REPO-BOUNDARY-CORRECTION",
+      "title": "Record separate Superadmin application repository",
+      "state": "CLAIMED",
+      "owner": "integrator",
+      "deps": [],
+      "scope": [
+        "AGENTS.md",
+        "README.md",
+        "START_HERE.md",
+        "apps/superadmin/",
+        "coordination/",
+        "knowledge/",
+        "runbooks/"
+      ],
+      "halo": [
+        "repository-boundaries",
+        "navigation"
+      ],
+      "acceptance": [
+        "Knowledge repository contains no application placeholder",
+        "Separate Superadmin target remains unconfirmed until provided"
+      ]
     }
   ]
 }
